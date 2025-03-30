@@ -404,7 +404,7 @@
     signOutBtn.addEventListener("click", async () => {
       try {
         await signOut(auth);
-        window.location.href = "https://ceecodes001.github.io/Signup/";
+        window.location.href = "https://ceecodes001.github.io/Sign/";
       } catch (error) {
         console.error("Sign out error:", error);
         notificationEl.textContent = "Error signing out.";
